@@ -1,4 +1,6 @@
-//  Red, Green, Blue LED를 테스트하는 회로를 구성하고 10번 깜박이는 프로그램
+/* Red, Green, Blue LED를 테스트하는 회로를 구성하고 10번 깜박이는 프로그램  */
+/* C언어에서는 wiringPi 사용                                              */
+/* 라즈베리파이에 pin을 꽂을 때는 red, green, blue 순서대로 4,5,6에 연결    */
 
 #include <wiringPi.h>                    // 라즈베리파이의 GPIO(General Purpose Input Output)핀에 엑세스 하기 위한 C/C++ 라이브러리
 #include <stdio.h>
