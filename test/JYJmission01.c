@@ -1,3 +1,5 @@
+//  Red, Green, Blue LED를 테스트하는 회로를 구성하고 10번 깜박이는 프로그램
+
 #include <wiringPi.h>                    // 라즈베리파이의 GPIO(General Purpose Input Output)핀에 엑세스 하기 위한 C/C++ 라이브러리
 #include <stdio.h>
 
