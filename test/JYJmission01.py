@@ -1,3 +1,5 @@
+# Red, Green, Blue LED를 테스트하는 회로를 구성하고 10번 깜박이는 프로그램
+
 import RPi.GPIO as GPIO                    # RPi.GPIO는 RaspberryPi의 GPIO 핀을 제어하기 위한 파이썬 라이브러리
 import time
 
