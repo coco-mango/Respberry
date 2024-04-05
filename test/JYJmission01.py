@@ -1,4 +1,6 @@
-# Red, Green, Blue LED를 테스트하는 회로를 구성하고 10번 깜박이는 프로그램
+# Red, Green, Blue LED를 테스트하는 회로를 구성하고 10번 깜박이는 프로그램 
+# Python에서는 GPIO 사용                                              
+# 라즈베리파이에 pin을 꽂을 때는 red, green, blue 순서대로 4,5,6에 연결 
 
 import RPi.GPIO as GPIO                    # RPi.GPIO는 RaspberryPi의 GPIO 핀을 제어하기 위한 파이썬 라이브러리
 import time
